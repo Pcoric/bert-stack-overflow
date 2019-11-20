@@ -51,3 +51,4 @@ dependencies:
   - azure-ml-api-sdk
   - tensorflow==2.0.0
   - transformers
+  - azure-cli-ml
