@@ -114,7 +114,7 @@ def main():
         use_gpu=True,
         pip_packages=[
             'transformers==2.0.0',
-            'azureml-dataprep[fuse,pandas]==1.1.22'])
+            'azureml-dataprep[fuse,pandas]==1.1.29'])
 
     train_step = EstimatorStep(
         name="Train Model",
